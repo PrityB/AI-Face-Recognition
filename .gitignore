@@ -1,0 +1,81 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDES
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Models (Weights)
+*.pt
+*.pth
+*.onnx
+*.h5
+*.pb
+
+# Data
+test_data/*
+!test_data/.gitkeep
+data/*
+!data/.gitkeep
+
+# Terraform
+**/.terraform/*
+**/terraform.tfstate
+**/terraform.tfstate.backup
+**/.terraform.tfstate.lock.info
+**/.terraform.tfstate.lock.hcl
+**/*.tfvars
+
+# Android
+*.iml
+.gradle/
+**/.gradle/
+local.properties
+**/local.properties
+.idea/caches/
+caches/
+**/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.DS_Store
+**/.DS_Store
+build/
+**/build/
+captures/
+.externalNativeBuild/
+.cxx/
